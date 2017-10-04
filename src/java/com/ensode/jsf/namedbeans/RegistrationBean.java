@@ -2,11 +2,11 @@ package com.ensode.jsf.namedbeans;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
-
+   
 @Named
 @RequestScoped
 public class RegistrationBean {
-
+  
     private String salutation;
     private String firstName;
     private String lastName;
